@@ -83,7 +83,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ اوامر التشغيل ›", url="https://t.me/vrrrrvr/65"
+                        "‹🎙️ اوامر التشغيل ›", url="https://t.me/vrrrrvr/65"
                     )
                 ],
             ]
