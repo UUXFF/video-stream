@@ -105,7 +105,7 @@ async def alive(client: Client, message: Message):
             [
                 InlineKeyboardButton("✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "📣 القناه", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ]
         ]
@@ -157,7 +157,7 @@ async def new_chat(c: Client, m: Message):
                             InlineKeyboardButton("💭 للمساعده", url=f"https://t.me/{GROUP_SUPPORT}")
                         ],
                         [
-                            InlineKeyboardButton("👤 Assistant", url=f"https://t.me/{ass_uname}")
+                            InlineKeyboardButton("👤 الحساب المساعد", url=f"https://t.me/{ass_uname}")
                         ]
                     ]
                 )
